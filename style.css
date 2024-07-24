@@ -4,6 +4,23 @@ body {
     padding: 0;
     background-color: #ADAEB1;
 }
+.custom-shape-divider-top-1721810205 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1721810205 svg {
+    position: relative;
+    display: block;
+    width: calc(152% + 1.3px);
+    height: 500px;
+}
+
+
 
 .navbar {
     display: flex;
@@ -12,6 +29,7 @@ body {
     background-color: #ADAEB1;
     padding: 10px 20px;
     color: black;
+    
 }
 
 .navbar-brand {
@@ -29,7 +47,7 @@ body {
     text-decoration: none;
     padding: 7px 15px;
     border-radius: 5px;
-    transition: background 0.3s;
+    transition: background 0.4s;
 }
 
 .navbar-links a:hover {
@@ -54,10 +72,20 @@ body {
     margin: 0 auto;
 }
 
-section {
+section:not(.main__home){
     padding: 50px 0;
     text-align: center;
 }
+.container__footer{
+    margin: 1px;
+    margin-bottom: 1px;
+    padding: 0;
+    text-align: left;
+    background-color: #97989b;
+}
+
+
+
 
 @media (max-width: 768px) {
     .navbar-links {
